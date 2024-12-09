@@ -65,19 +65,42 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
-![WhatsApp Image 2024-12-03 at 14 16 35_a3508688](https://github.com/user-attachments/assets/e4e9ecab-75a1-4706-81b0-2c74c95b5826)
 
+module
 
+log_gat(a,b,c1,c2,c3,c4,c5,c6,c7);
+
+input a,b;
+
+output c1,c2,c3,c4,c5,c6,c7;
+
+not g1(c1,a);
+
+and g2(c2,a,b);
+
+or g3(c3,a,b);
+
+nand g4(c4,a,b);
+
+nor g5(c5,a,b);
+
+xor g6(c6,a,b);
+
+xnor g7(c7,a,b);
+
+endmodule
  Developed by: Meenakshi.R
  RegisterNumber: 24003710
  
 **Logic symbol & Truthtable**
-![WhatsApp Image 2024-12-03 at 14 16 35_33657b05](https://github.com/user-attachments/assets/08fc0345-cf8c-4d81-8232-bf8b45b1d679)
+
+![WhatsApp Image 2024-12-09 at 08 59 56_31d65b61](https://github.com/user-attachments/assets/d01051ab-5c41-4408-9844-67de8ecf8390)
 
 
 **RTL realization Output:** 
-![WhatsApp Image 2024-12-03 at 14 16 35_9e918881](https://github.com/user-attachments/assets/c89de461-762f-44b0-9be0-b3a883448e4a)
+w
 
+![WhatsApp Image 2024-12-09 at 08 59 55_10c72eb1](https://github.com/user-attachments/assets/1d3725b2-5639-4d1b-9160-4a80002f5944)
 
 **RTL**
 
