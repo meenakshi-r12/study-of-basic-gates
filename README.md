@@ -89,6 +89,7 @@ xor g6(c6,a,b);
 xnor g7(c7,a,b);
 
 endmodule
+ 
  Developed by: Meenakshi.R
  RegisterNumber: 24003710
  
